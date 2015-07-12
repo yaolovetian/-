@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Two" rowHeight="171" id="xYd-qt-tGR" customClass="MyAppCell">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="171"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xYd-qt-tGR" id="aMC-R7-DBR">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uch-JH-t4c">
+                        <rect key="frame" x="8" y="8" width="322" height="154"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uch-JH-t4c" firstAttribute="trailing" secondItem="aMC-R7-DBR" secondAttribute="trailingMargin" id="707-Ss-9VW"/>
+                    <constraint firstItem="uch-JH-t4c" firstAttribute="leading" secondItem="aMC-R7-DBR" secondAttribute="leadingMargin" id="TF5-YK-d5G"/>
+                    <constraint firstItem="uch-JH-t4c" firstAttribute="top" secondItem="aMC-R7-DBR" secondAttribute="topMargin" id="fby-pl-Grz"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="uch-JH-t4c" secondAttribute="bottom" id="k3B-A0-RaG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="strImageView" destination="uch-JH-t4c" id="QaF-4k-RNe"/>
+            </connections>
+            <point key="canvasLocation" x="227" y="284.5"/>
+        </tableViewCell>
+    </objects>
+</document>
